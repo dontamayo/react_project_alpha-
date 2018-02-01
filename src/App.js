@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person';
+
+
 
 class App extends Component {
   render() {
@@ -8,6 +11,9 @@ class App extends Component {
         <h1>Hi, I am Don! </h1>
         <h2>I am learning React</h2>
         <p>Learning is Unlimited, Why Stop?</p>
+        <Person name="Max" age="28" />
+        <Person name="Don" age="29">My Hobbies: Basketball</Person>
+        <Person name="Min" age="20"/>
       </div>
     );
 
